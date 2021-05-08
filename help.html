@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Aditya's Contact</title>
+    </head>
+    <style>
+        hr{
+               
+               border-style: none;
+               border-color: white;
+               border-top-style: dotted ;
+               border-width: 5px;
+               width: 12%; 
+           }
+        fieldset{
+            border: double;
+            background-color: #edffec;
+        }
+        legend{
+            background-color: #f3f4ed;
+        }
+        form{
+            border:dotted;
+            background-color: #dbf6e9;
+            display: inline-block;
+            width: 1100px;
+        }
+        table.center{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        body{
+            background-color: moccasin;
+            text-align: center;
+        }
+        p{
+            font-style: italic;
+        }
+        th{
+            text-align: right;
+        }
+        td{
+            text-align: center;
+        }
+    </style>
+    <body>
+        <h1><u>Contact Details</u></h1>
+        <fieldset>
+            <legend>🚘</legend>
+        <p>
+            Written by <button><a href="mailto:bholasharma5119@gmail.com">Aditya Sharma</a></button><br>
+            Gola Ganj, Bhajoi, Sambhal<br>
+            UttarPradesh, India
+        </p>
+        </fieldset>
+        <hr>
+        <h2><u>Form</u></h2>
+        <form action="mailto:bholasharma5119@gmail.com" method="POST" enctype="text/plain">
+           <p>If you have any probelm regarding <strong>Web Devlopment</strong>, then fill the following form. If i am able to find the solution of your problem, i am surely help you.<strong><u>Thank you.💛</u></strong></p>
+           <p style="text-align: center;">
+            <table class="center">
+               <tr>
+                   <th><label for="name">Enter Your Name : </label></th>
+                   <td><input id="name" type="text" placeholder="Name..." maxlength="25"></td>
+               </tr>
+               <tr>
+                   <th></th>
+                   <td></td>
+               </tr>
+               <tr>
+                   <th><label for="password">Password : </label></th>
+                   <td><input id="password" type="password" placeholder="create password.."></td>
+               </tr>
+               <tr>
+                   <th></th>
+                   <td></td>
+               </tr>
+               <tr>
+                   <th>Email Address : </th>
+                   <td><input type="email" placeholder="enter email..."></td>
+               </tr>
+               <tr>
+                   <th></th>
+                   <td></td>
+               </tr>
+               <tr>
+                   <th> your Problem : <br>(Upload your code image where you stuck)</th>
+                   <td><input type="file" name="problem">
+               </tr>
+               <tr>
+                   <th></th>
+                   <td></td>
+               </tr>
+               <tr>
+                   <th>Describe your Problem :</th>
+                   <td>
+                       <textarea name="comments" id="" cols="30" rows="10">Describe your problem..</textarea>
+                   </td>
+               </tr>
+               <tr>
+                   <th></th>
+                   <td></td>
+               </tr>
+               <tr>
+                   <th>Do you share my page to your friends?😅</th>
+                   <td>
+                       <select name="share">
+                           <option value="Definetely">Definetely</option>
+                           <option value="maybe">Maybe</option>
+                           <option value="notsure">Not Sure</option>
+                       </select>
+                   </td>
+               </tr>
+           </table>
+           </p>
+           <p style="text-align: left;"><input type="submit" value="Submit"></p>
+         </form> 
+         <p style="text-align: left;"><button><a href="cv.html">Back</a></button></p>
+    </body>
+</html>
